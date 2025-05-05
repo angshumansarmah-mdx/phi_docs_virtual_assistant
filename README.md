@@ -29,7 +29,7 @@ pip install -r requirements.txt
 #### Step 3: Pull the models (if you already have models loaded in Ollama, then not required)
     #### Make sure to have Ollama running on your system from https://ollama.ai
       ```
-      ollama pull mistral
+      ollama pull phi4
       ```
 
 #### Step 4: put your files in the source_documents folder after making a directory
@@ -65,7 +65,7 @@ Enter a query: How many locations does WeWork have?
 ### Try with a different model:
 ```
 ollama pull llama2:13b
-MODEL=llama2:13b python privateGPT.py
+MODEL=llama2:13b python server.py
 ```
 
 ## Add more files
