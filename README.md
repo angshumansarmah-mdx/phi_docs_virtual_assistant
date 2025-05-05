@@ -50,7 +50,7 @@ Loading new documents: 100%|█████████████████�
 Loaded 235 new documents from source_documents
 Split into 1268 chunks of text (max. 500 tokens each)
 Creating embeddings. May take some minutes...
-Ingestion complete! You can now run privateGPT.py to query your documents
+Ingestion complete! You can now run server.py to query your documents
 ```
 
 #### Step 6: Run this command (use python3 if on mac)
