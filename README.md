@@ -55,7 +55,7 @@ Ingestion complete! You can now run privateGPT.py to query your documents
 
 #### Step 6: Run this command (use python3 if on mac)
 ```
-python privateGPT.py
+python server.py
 ```
 
 ##### Play with your docs
