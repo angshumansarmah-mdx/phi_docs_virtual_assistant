@@ -1,13 +1,25 @@
 #### Inspired from (https://github.com/imartinez/privateGPT) and (https://github.com/jmorganca/ollama)
 
 #### Step 1: Step a Virtual Environment
-A. you can use conda,
-    install anaconda, ```brew install anaconda```,get it running
-    Check ```which conda``` to see if it got properly installed
-    update zshrc file if needed
-B. conda create -n <an_environment_name_that_you_want_to_create> python=3.11
+```
+A. you can use conda for setting a Virtual environment,
+
+    Installing anaconda,
+    Run---> brew install anaconda ,get it running
+
+    To see if it got properly installed
+    Run---> `which conda`
+
+    Update the .zshrc file if needed to run conda
+
+B. To create an environment
+    Run---> conda create -n <an_environment_name_that_you_want_to_create> python=3.11
     Follow the steps
-C. Activate the newly created conda env ```conda activate <env_name>
+
+C. Activate the newly created conda env
+    Run---> conda activate <env_name>
+
+```
 
 #### Step 2: Install the Requirements
 ```
